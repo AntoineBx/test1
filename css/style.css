@@ -1,0 +1,24 @@
+#bleu{
+	background-color:blue;
+}
+#blanc{
+	background-color:#ecf0f1;
+}
+#rouge{
+	background-color:#c0392b;
+}
+#calais{
+	width: 100%;
+}
+body{
+font-size: 16px;
+
+}
+h1{
+	font-size: 25px;
+}
+#logo{
+display : block;
+margin:auto;
+width: 300px;
+}
