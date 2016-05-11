@@ -7,6 +7,18 @@
 #rouge{
 	background-color:#c0392b;
 }
-img{
+#calais{
 	width: 100%;
+}
+body{
+font-size: 16px;
+
+}
+h1{
+	font-size: 25px;
+}
+#logo{
+display : block;
+margin:auto;
+width: 300px;
 }
