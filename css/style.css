@@ -10,8 +10,13 @@
 #calais{
 	width: 100%;
 }
+
 body{
 font-size: 16px;
+background-image:url(../img/bg.jpg);
+
+background-size: contain;
+background-size: cover;
 
 }
 h1{
@@ -21,4 +26,36 @@ h1{
 display : block;
 margin:auto;
 width: 300px;
+}
+table{
+	border: solid 1px black;
+}
+td{
+	border: solid 1px black;
+	text-align:center;
+
+}
+td:first-child{
+	background-color: grey;
+}
+@media screen and (max-width:640px){
+	table{
+		display:block;
+
+	}
+	tbody{
+		display: block;
+		width:100%;
+	}
+	tr{
+		display:table;
+		width:100%;
+	}
+	td{
+		display:table-row;
+
+	}
+	#bleu{
+		background-color: red;
+	}
 }
